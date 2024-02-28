@@ -1,0 +1,135 @@
+@charset "utf-8";
+
+.top_area {
+	width: 100%;
+	height: 300px;
+	background: url(../img/community_top.png) no-repeat center center;
+	overflow: auto;
+}
+
+.content form {
+	width: 900px;
+	margin: 0 auto;
+}
+
+.content form .area {
+	margin-bottom: 20px;
+}
+
+.content form .area label {
+	float: left;
+	width: 160px;
+	line-height: 45px;
+	font-weight: 500;
+	color: #242424;
+	padding-right: 50px;
+	box-sizing: border-box;
+	text-align: right;
+}
+
+.content form .area input[type="text"] {
+	float: left;
+	width: 650px;
+	height: 45px;
+	box-sizing: border-box;
+	border: 1px solid #dbdbdb;
+	font-family: inherit;
+	font-size: 16px;
+	padding-left: 15px;
+	letter-spacing: -1px;
+	color: #242424;
+	border-radius: 5px;
+}
+
+.content form .address .address_code {
+	width: 200px !important;
+}
+
+.content form .address .search_btn {
+	width: 110px;
+	height: 45px;
+	margin-left: 5px;
+	font-family: inherit;
+	color: white;
+	letter-spacing: -1px;
+	font-size: 16px;
+	cursor: pointer;
+	background-color: #8e8e8e;
+	border-radius: 5px;
+}
+
+.content form .address .address_box {
+	clear: both;
+	margin-left: 160px;
+	margin-top: 10px;
+}
+
+.content form .tell select {
+	width: 130px;
+	height: 45px;
+	float: left;
+	box-sizing: border-box;
+	border: 1px solid #dbdbdb;
+	font-family: inherit;
+	font-size: 16px;
+	padding-left: 15px;
+	letter-spacing: -1px;
+	-webkit-appearance: none; 
+	-moz-appearance: none; 
+	appearance: none; 
+	background: url(../img/select_bg.png) no-repeat right center;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+select::-ms-expand {display: none;}
+
+.content form .tell .bar {
+	float: left;
+	width: 20px;
+	line-height: 45px;
+	color: #8e8e8e;
+	text-align: center;
+}
+
+.content form .tell .tell_box {
+	width: 130px !important;
+}
+
+select::-ms-expand {display: none;}
+
+.agree {
+	border-top: 1px solid #d7d7d7;
+	border-bottom: 1px solid #d7d7d7;
+}
+
+.agree .green {
+	float: left;
+	width: 160px;
+	line-height: 170px;
+	font-weight: 500;
+	color: #242424;
+	padding-right: 50px;
+	box-sizing: border-box;
+	text-align: right;
+}
+
+.agree .detail {
+	font-size: 15px;
+	color: #a5a5a5;
+	float: left;
+	padding: 20px 0;
+}
+
+.content form .apply_btn {
+	color: white;
+	font-size: 20px; 
+	font-family: inherit;
+	letter-spacing: -1px;
+	width: 200px;
+	height: 60px;
+	cursor: pointer;
+	display: block;
+	margin: 60px auto 0;
+	border-radius: 5px;
+} 

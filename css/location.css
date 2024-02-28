@@ -1,0 +1,94 @@
+@charset "utf-8";
+
+.top_area {
+	width: 100%;
+	height: 300px;
+	background: url(../img/company_top.png) no-repeat center center;
+	overflow: auto;
+}
+
+.map_area {
+	position: relative;
+}
+
+.map #daumRoughmapContainer1516594150522 {
+	width: 100%;
+}
+
+.map .wrap_controllers {
+	display: none;
+}
+
+.map .map_border {
+	display: none;
+}
+
+.info_box {
+	width: 380px;
+	height: 400px;
+	background: white;
+	padding: 40px 30px 30px;
+	box-sizing: border-box;
+	position: absolute;
+	top: 70px;
+	right: 60px;
+	z-index: 9;
+}
+
+.info_box .name {
+	font-size: 20px;
+	font-weight: 500;
+	color: #242424;
+}
+
+.info_box .deepgray {
+	font-weight: 300;
+	margin-bottom: 30px;
+}
+
+.info_box .bg_green {
+	width: 30px;
+	height: 3px;
+	margin-bottom: 80px;
+}
+
+.info_box p.address {
+	font-size: 15px;
+	padding-left: 30px;
+	margin-bottom: 20px;
+	background: url(../img/address_icon.png) no-repeat left 2px;
+	color: #242424;
+}
+
+.info_box p.call {
+	font-size: 15px;
+	padding-left: 30px;
+	margin-bottom: 30px;
+	line-height: 20px;
+	background: url(../img/call_icon.png) no-repeat left center;
+	float: left;
+	margin-right: 60px;
+	color: #242424;
+}
+
+.info_box p.fax {
+	font-size: 15px;
+	padding-left: 30px;
+	margin-bottom: 30px;
+	line-height: 20px;
+	background: url(../img/fax_icon.png) no-repeat left center;
+	float: left;
+	color: #242424;
+}
+
+.info_box ul {
+	clear: both;
+}
+
+.info_box ul li {
+	float: left;
+}
+
+.info_box ul li:first-child {
+	margin-right: 20px;
+}

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>한국기업복지</title>
+
+	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/request.css">
+	<script type="text/javascript" src="js/jquery-3.7.1.slim.js"></script>
+	<script type="text/javascript" src="js/menu.js"></script>
+</head>
+
+<body>
+	<header>
+		<div class="mg_center cf">
+			<h1><a href="index.html"><img src="img/logo.png" alt="logo"></a></h1>
+			<a href="login.html" class="elink">기업회원 로그인</a>
+			<ul class="main_menu">
+				<li>
+					<a href="greeting.html" class="company">회사소개</a>
+					<ul class="sub_menu">
+						<li class="top_li"><a href="greeting.html">회사소개</a></li>
+						<li><a href="greeting.html">인사말</a></li>
+						<li><a href="history.html">연혁</a></li>
+						<li><a href="organization.html">조직도</a></li>
+						
+					</ul>
+				</li>
+				<li><a href="business.html">사업분야</a></li>
+				<li><a href="welfare.html">복지서비스</a></li>
+				<li><a href="partner.html">제휴문의</a></li>
+				<li>
+					<a href="">커뮤니티</a>
+					<ul class="sub_menu">
+						<li class="top_li"><a href="news.html">커뮤니티</a></li>
+						<li><a href="news.html">뉴스</a></li>
+						<li><a href="request.html">상담신청</a></li>						
+					</ul>
+				</li>				
+			</ul>
+		</div>
+	</header>
+
+	<div class="top_area">
+		<h4 class="title">커뮤니티</h4>
+		<p class="sub_title">Community</p>
+	</div>
+
+	<ul class="lnb">
+		<li class="home"><a href="index.html">HOME</a></li>
+		<li><img src="img/lnb_arrow.png" alt="lnb_arrow"></li>
+		<li><a href="news.html">커뮤니티</a></li>
+		<li><img src="img/lnb_arrow.png" alt="lnb_arrow"></li>
+		<li><a href="request.html">상담신청</a></li>
+	</ul>
+
+	<div class="title_area">
+		<div class="line"></div>
+		<h3>상담신청</h3>
+		<h5>consultation request</h5>
+	</div>
+
+	<div class="content">
+		<form>
+			<div class="area cf">
+				<label for="company">사업자명</label>
+				<input type="text" id="company" placeholder="사업자명을 입력해 주세요.">
+			</div>
+			
+			<div class="area cf">
+				<label for="companyNum">사업자등록번호</label>
+				<input type="text" id="companyNum" placeholder="사업자등록번호를 입력해 주세요.">
+			</div>
+			
+			<div class="area cf">
+				<label for="kindOfJob">업종</label>
+				<input type="text" id="kindOfJob" placeholder="업종을 입력해 주세요.">
+			</div>
+			
+			<div class="area cf">
+				<label for="corporationNum">법인등록번호</label>
+				<input type="text" id="corporationNum" placeholder="법인등록번호를 입력해 주세요.">
+			</div>
+			
+			<div class="area cf address">
+				<label for="address">소재지</label>
+				<input type="text" id="address_code" placeholder="우편번호" class="address_code">
+				<input type="button" value="우편번호 찾기" class="search_btn">
+				<input type="text" id="address" placeholder="주소를 입력해 주세요." class="address_box">
+				<input type="text" id="address2" placeholder="상세주소를 입력해 주세요." class="address_box">
+			</div>
+
+			<div class="area cf tell">
+				<label for="tell">전화</label>
+				<select>
+					<option value="">02</option>
+					<option value="">031</option>
+				</select>
+				<div class="bar">-</div>
+				<input type="text" id="tell" class="tell_box">
+				<div class="bar">-</div>
+				<input type="text" id="tell2" class="tell_box">
+			</div>
+
+			<div class="area cf tell">
+				<label for="phone">휴대폰</label>
+				<select>
+					<option value="">010</option>
+					<option value="">011</option>
+				</select>
+				<div class="bar">-</div>
+				<input type="text" id="phone" class="tell_box">
+				<div class="bar">-</div>
+				<input type="text" id="phone2" class="tell_box">
+			</div>
+			
+			<div class="area cf">
+				<label for="owner">대표자</label>
+				<input type="text" id="owner" placeholder="대표자 성함을 입력해 주세요.">
+			</div>
+			
+			<div class="area cf">
+				<label for="names">담당자/직책</label>
+				<input type="text" id="names" placeholder="담당자 성함과 직책을 입력해 주세요.">
+			</div>
+			
+			<div class="area cf">
+				<label for="allStaff">전체 근로자수</label>
+				<input type="text" id="allStaff" placeholder="전체 근로자수를 입력해 주세요.">
+			</div>
+			
+			<div class="area cf">
+				<label for="insured">피보험자수</label>
+				<input type="text" id="insured" placeholder="피보험자수를 입력해 주세요.">
+			</div>
+
+			<div class="area cf">
+				<label for="mails">담당자 이메일</label>
+				<input type="text" id="mails" placeholder="이메일을 입력해 주세요.">
+			</div>
+
+			<div class="area cf tell">
+				<label>알게 된 경로</label>
+				<select>
+					<option value="">이메일</option>
+					<option value="">잡코리아</option>
+					<option value="">인사쟁이</option>
+					<option value="">블로그</option>
+					<option value="">페이스북</option>
+					<option value="">신문기사</option>
+					<option value="">인터넷검색</option>
+					<option value="">포스터</option>
+					<option value="">지인</option>
+					<option value="">복지멘토</option>
+					<option value="">지도사</option>
+					<option value="">기타</option>
+				</select>
+				<input type="text" style="width: 515px; margin-left: 5px;">
+			</div>
+
+			<div class="agree cf">
+				<p class="green">※이용약관</p>
+				<p class="detail">e복지는 고객의 소리를 이용하는 기업 및 개인을 대상으로 아래와 같이 개인정보를 수집하고 있습니다.<br><br>1. 수집 개인정보 항목: 성명, 전화, 휴대폰 번호, e메일, 주소<br>2. 개인정보의 수집 및 이용목적: 문의내용에 대한 확인 및 신속하고 정확한 상담(오류해결 등), 고객불만 발생시 해결<br>3. 개인정보의 이용기간: 수집된 정보는 서비스 이용기간 동안 보관하며, 이 외의 다른 목적으로 사용되지 않습니다.<br>4. 그 밖의 사항은 개인정보취급방침을 준수합니다.</p>
+			</div>
+
+			<input type="submit" value="상담 신청" class="bg_green apply_btn">
+		</form>
+	</div>
+
+	<footer>
+		<div class="mg_center">
+			<div class="text">
+				<p>서울시 성동구 아차산로49 서울숲코오롱디지털타워 3차 1403호</p>
+				<p class="copy">Copyright ⓒ 2018 한국기업복지. All rights reserved.</p>
+			</div>
+
+			<div class="family">
+				<a href="">FAMILY SITE</a>
+				<ul class="familys">
+					<li><a href="http://www.kbizwell.org/" target="_blank">한국기업복지지도사협회</a></li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>

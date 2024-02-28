@@ -1,0 +1,142 @@
+@charset "utf-8";
+
+.top_area {
+	width: 100%;
+	height: 300px;
+	background: url(../img/community_top.png) no-repeat center center;
+	overflow: auto;
+}
+
+.list {
+	width: 1220px;
+	margin: 0 auto 20px;
+}
+
+.list .box {
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	width: 285px;
+	height: 400px;
+	box-sizing: border-box;
+	border: 1px solid #eaeaea;
+	position: relative;
+	transition: 0.3s;
+	cursor: pointer;
+}
+
+.list .box:hover {
+	border-color: #48c29e;
+}
+
+.list .box .img {
+	width: 283px;
+	height: 200px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.list .box h6 {
+	margin: 20px 0;
+	padding: 0 20px;
+	line-height: 24px;
+	height: 48px;
+	text-overflow: ellipsis;
+	word-wrap: break-word; 
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	transition: 0.3s;
+	color: #242424
+}
+
+.list .box:hover h6 {
+	color: #48c29e;
+}
+
+.list .box p.deepgray {
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 18px;
+	height: 54px;
+	padding: 0 20px;
+	margin-bottom: 20px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	word-wrap: break-word;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+}
+
+.list .box p.date {
+	font-size: 15px;
+	font-weight: 300;
+	color: #a5a5a5;
+	padding-left: 22px;
+	line-height: 15px;
+	background: url(../img/date_icon.png) no-repeat left center; 
+	margin-left: 20px;
+}
+
+.list .box .plus {
+	width: 13px;
+	height: 13px;
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+	transition: 0.4s;
+}
+
+.list .box:hover .plus {
+	transform: rotate(90deg);
+}
+
+.list .box .plus .line1 {
+	width: 1px;
+	height: 13px;
+	background: #666767;
+	position: absolute;
+	left: 6px;
+	transition: 0.4s;
+}
+
+.list .box .plus .line2 {
+	width: 13px;
+	height: 1px;
+	background: #666767;
+	position: absolute;
+	top: 6px;
+	transition: 0.4s;
+}
+
+.list .box:hover .plus div {
+	background-color: #48c29e;
+}
+
+.pager {
+	text-align: center;
+}
+
+.pager li {
+	display: inline-block;
+	margin-left: 40px;
+}
+
+.pager li.prev {
+	margin-left: 0;
+}
+
+.pager li a {
+	color: #666767;
+}
+
+.pager li.active a {
+	color: #48c29e;
+}
+
+.pager li a img {
+	margin-bottom: -4px;
+}

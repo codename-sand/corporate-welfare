@@ -1,0 +1,420 @@
+@charset "utf-8";
+
+.top_area {
+	width: 100%;
+	height: 300px;
+	background: url(../img/partner_top.png) no-repeat center center;
+	overflow: auto;
+}
+
+.intro {
+	width: 100%;
+	height: 350px;
+	background: url(../img/partner_img.png) no-repeat center center;
+	overflow: auto;
+}
+
+.intro .mg_center {
+	padding-left: 200px;
+	box-sizing: border-box;
+	margin-top: 105px;
+}
+
+.intro h4 {
+	font-size: 32px;
+	color: #242424;
+	font-weight: 300;
+	margin-bottom: 30px;
+}
+
+.intro h4 span {
+	font-weight: 500;
+}
+
+.intro p {
+	color: #242424;
+}
+
+.intro p span {
+	font-weight: 600;
+}
+
+.subTitle {
+	text-align: center;
+	margin-top: 80px;
+}
+
+.subTitle h4 {
+	font-size: 32px;
+	color: #242424;
+	font-weight: 300;
+	line-height: 32px;
+}
+
+.subTitle h4 span {
+	font-weight: 500;
+}
+
+.subTitle p {
+	color: #666767;
+	margin: 15px 0 20px;
+}
+
+.subTitle .line {
+	width: 1px;
+	height: 25px;
+	background: #48c29e;
+	margin: 0 auto 40px;
+}
+
+.list {
+	width: 1400px;
+	margin: 0 auto;
+	padding-bottom: 100px;
+	border-bottom: 1px solid #f4f4f4;
+}
+
+.list .box {
+	width: 210px;
+	height: 295px;
+	box-sizing: border-box;
+	border: 1px solid #d7d7d7;
+	float: left;
+	border-radius: 5px;
+	margin-left: 26px;
+	position: relative;
+	background: white;
+	box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.1);
+	text-align: center;
+}
+
+.list .box:first-child {
+	margin-left: 0;
+}
+
+.list .box:after {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: #f4f4f4;
+	left: 10px;
+	top: 10px;
+	border-radius: 5px;
+	z-index: -1;
+}
+
+.list .box img {
+	margin-top: 35px;
+	margin-bottom: 5px;
+}
+
+.list .box h6 {
+	font-weight: 500;
+	color: #242424;
+}
+
+.list .box p.eng {
+	font-size: 15px;
+	color: #a5a5a5;
+	font-weight: 300;
+	margin-bottom: 20px;
+}
+
+.list .box p.detail {
+	color: #666767;
+}
+
+.platform .mou {
+	width: 1400px;
+	margin: 0 auto 60px;
+}
+
+.platform .mou .box {
+	float: left;
+	margin-left: 25px;
+	border-bottom: 1px solid #d7d7d7;
+	padding-bottom: 20px;
+}
+
+.platform .mou .box:first-child {
+	margin-left: 0;
+}
+
+.platform .mou .box img {
+	margin-bottom: 20px;
+	display: block;
+}
+
+.platform .mou .box h6 {
+	float: left;
+	line-height: 30px;
+	color: #242424;
+}
+
+.platform .mou .box a {
+	float: right;
+	width: 80px;
+	height: 30px;
+	line-height: 28px;
+	box-sizing: border-box;
+	text-align: center;
+	border: 1px solid #48c29e;
+	color: #48c29e;
+	border-radius: 5px;
+	transition: 0.5s;
+}
+
+.platform .mou .box a:hover {
+	background: #48c29e;
+	color: white;
+}
+
+.platform .effect {
+	width: 1400px;
+	height: 420px;
+	padding: 50px;
+	box-sizing: border-box;
+	background-color: #f2fbf8;
+	margin: 0 auto 100px;
+}
+
+.platform .effect img {
+	position: absolute;
+}
+
+.platform .effect_text {
+	width: 620px;
+	height: 160px;
+	float: left;
+	display: table;
+}
+
+.platform .mg {
+	margin-right: 60px;
+}
+
+.platform .effect_text p {
+	color: #242424;
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.platform .effect p span {
+	font-weight: 600;
+}
+
+.platform .effect p span.green {
+	font-size: 18px;
+}
+
+.partner {
+	background: #f4f4f4;
+	overflow: auto;
+	padding-bottom: 90px;
+}
+
+.partner .logo {
+	width: 1200px;
+	margin: 0 auto;
+	position: relative;
+	left: 5px;
+}
+
+.partner .logo img {
+	display: block;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+.request .apply_step {
+	width: 960px;
+	margin: 0 auto 40px;
+}
+
+.request .apply_step .circle {
+	width: 160px;
+	height: 160px;
+	box-sizing: border-box;
+	border-radius: 50%;
+	float: left;
+	text-align: center;
+}
+
+.request .apply_step p.green {
+	margin-top: 30px;
+	margin-bottom: 15px;
+	font-size: 18px;
+}
+
+.request .apply_step p.black {
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 26px;
+}
+
+.request .apply_step .arrow {
+	width: 40px;
+	height: 160px;
+	background: url(../img/step_arrow.png) no-repeat center center;
+	float: left;
+}
+
+.request form {
+	width: 900px;
+	margin: 0 auto;
+}
+
+.request form .area {
+	margin-bottom: 20px;
+}
+
+.request form .area label {
+	float: left;
+	width: 160px;
+	line-height: 45px;
+	font-weight: 500;
+	color: #242424;
+	padding-right: 50px;
+	box-sizing: border-box;
+	text-align: right;
+}
+
+.request form .area input[type="text"] {
+	float: left;
+	width: 650px;
+	height: 45px;
+	box-sizing: border-box;
+	border: 1px solid #dbdbdb;
+	font-family: inherit;
+	font-size: 16px;
+	padding-left: 15px;
+	letter-spacing: -1px;
+	color: #242424;
+	border-radius: 5px;
+}
+
+.request form .address .address_code {
+	width: 200px !important;
+}
+
+.request form .address .search_btn {
+	width: 110px;
+	height: 45px;
+	margin-left: 5px;
+	font-family: inherit;
+	color: white;
+	letter-spacing: -1px;
+	font-size: 16px;
+	cursor: pointer;
+	background-color: #8e8e8e;
+	border-radius: 5px;
+}
+
+.request form .address .address_box {
+	clear: both;
+	margin-left: 160px;
+	margin-top: 10px;
+}
+
+.request form .tell select {
+	width: 130px;
+	height: 45px;
+	float: left;
+	box-sizing: border-box;
+	border: 1px solid #dbdbdb;
+	font-family: inherit;
+	font-size: 16px;
+	padding-left: 15px;
+	letter-spacing: -1px;
+	-webkit-appearance: none; 
+	-moz-appearance: none; 
+	appearance: none; 
+	background: url(../img/select_bg.png) no-repeat right center;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+select::-ms-expand {display: none;}
+
+.request form .tell .bar {
+	float: left;
+	width: 20px;
+	line-height: 45px;
+	color: #8e8e8e;
+	text-align: center;
+}
+
+.request form .tell .tell_box {
+	width: 130px !important;
+}
+
+
+.request form .mail_area .mail_box {
+	width: 135px !important;
+}
+
+.request form .mail_area .at {
+	float: left;
+	width: 25px;
+	line-height: 45px;
+	color: #7f7f7f;
+	text-align: center;
+}
+
+.request form .mail_area select {
+	width: 130px;
+	height: 45px;
+	float: left;
+	box-sizing: border-box;
+	border: 1px solid #dbdbdb;
+	font-family: inherit;
+	font-size: 16px;
+	padding-left: 15px;
+	letter-spacing: -1px;
+	-webkit-appearance: none; 
+	-moz-appearance: none; 
+	appearance: none; 
+	background: url(../img/select_bg.png) no-repeat right center;
+	cursor: pointer;
+	border-radius: 5px;
+	margin-left: 5px;
+}
+
+.agree {
+	border-top: 1px solid #d7d7d7;
+	border-bottom: 1px solid #d7d7d7;
+}
+
+.agree .green {
+	float: left;
+	width: 160px;
+	line-height: 170px;
+	font-weight: 500;
+	color: #242424;
+	padding-right: 50px;
+	box-sizing: border-box;
+	text-align: right;
+}
+
+.agree .detail {
+	font-size: 15px;
+	color: #a5a5a5;
+	float: left;
+	padding: 20px 0;
+}
+
+.request form .apply_btn {
+	color: white;
+	font-size: 20px; 
+	font-family: inherit;
+	letter-spacing: -1px;
+	width: 200px;
+	height: 60px;
+	cursor: pointer;
+	display: block;
+	margin: 60px auto 0;
+	border-radius: 5px;
+} 

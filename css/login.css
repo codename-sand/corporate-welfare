@@ -1,0 +1,146 @@
+@charset "utf-8";
+
+body {
+	background: #f4f4f4;
+}
+
+.box {
+	width: 1020px;
+	height: 640px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -320px;
+	margin-left: -510px;
+	background: white;
+	border-radius: 5px;
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+	overflow: hidden;
+}
+
+.box .left {
+	width: 520px;
+	float: left;
+	text-align: center;
+}
+
+.box .left img {
+	display: block;
+	margin: 60px 0px 75px 50px;
+}
+
+.box .left h5 {
+	font-size: 24px;
+	color: #242424;
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+.box .left h5 span {
+	font-weight: 600;
+}
+
+.box .left p {
+	font-size: 15px;
+	color: #a5a5a5;
+}
+
+.box .left .line {
+	width: 1px;
+	height: 25px;
+	background: #48c29e;
+	margin: 15px auto 40px;
+}
+
+.box form {
+	width: 320px;
+	margin: 0 auto;
+}
+
+.box form input {
+	width: 320px;
+	height: 40px;
+	border-bottom: 1px solid #d7d7d7;
+	font-family: inherit;
+	font-size: 15px;
+	color: #242424;
+	padding-left: 24px;
+	box-sizing: border-box;
+}
+
+.box form input[type="text"] {
+	background: url(../img/input_id.png) no-repeat left center;
+	margin-bottom: 20px;
+}
+
+.box form input[type="password"] {
+	background: url(../img/input_pw.png) no-repeat left center;
+	margin-bottom: 40px;
+}
+
+.box form input[type="submit"] {
+	padding: 0;
+	height: 50px;
+	background: #48c29e;
+	border-radius: 5px;
+	color: white;
+	font-size: 20px;
+	font-weight: 500;
+	border-bottom: 0;
+	margin-bottom: 75px;
+	cursor: pointer;
+}
+
+.box .left a {
+	color: #48c29e;
+	font-size: 15px;
+}
+
+.box .right {
+	float: left;
+	width: 500px;
+	height: 640px;
+	background: url(../img/login_bg.png);
+}
+
+.box .right h5 {
+	font-size: 24px;
+	color: white;
+	text-align: center;
+	font-weight: 300;
+	line-height: 32px;
+	margin-top: 100px;
+	margin-bottom: 40px;
+}
+
+.box .right h5 span {
+	font-weight: 500;
+}
+
+.box .right img {
+	display: block;
+	margin: 0 auto 40px;
+}
+
+.box .right h6 {
+	color: white;
+	text-align: center;
+	font-weight: 300;
+	line-height: 24px;
+	margin-bottom: 20px;
+}
+
+.box .right a {
+	display: block;
+	width: 160px;
+	height: 40px;
+	border: 1px solid white;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 38px;
+	box-sizing: border-box;
+	border-radius: 5px;
+	margin: 0 auto;
+	color: white;
+	text-align: center;
+}
